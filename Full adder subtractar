@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-void Full_Subtractor(int A,int B,int Bin){
+void Full_Subtractor(int A,int B,int Bin)
+{
     int Difference = (A ^ B) ^ Bin;
        
     int A1 = not(A);
